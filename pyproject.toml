@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "bookmarks-xfer"
+version = "0.1.0"
+description = ""
+authors = ["atolopko <06725+atolopko@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sentence-transformers = "^3.3.1"
+scikit-learn = "^1.6.0"
+matplotlib = "^3.10.0"
+plotly = "^5.24.1"
+pandas = "^2.2.3"
+llvmlite = "^0.43.0"
+umap-learn = "^0.5.7"
+
+
+[tool.poetry.group.dev.dependencies]
+git-lfs = "^1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
